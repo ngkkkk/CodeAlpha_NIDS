@@ -33,14 +33,14 @@ When suspicious activity is detected, the system:
 
 This project builds upon the concepts from a basic network sniffer.
 
-| Network Sniffer | Network IDS |
-|---|---|
-| Captures packets | Captures packets |
-| Displays traffic | Analyzes traffic |
-| Basic protocol information | Stateful traffic analysis |
-| No attack detection | Detects suspicious patterns |
-| No security alerts | Generates security alerts |
-| Mainly observation | Detection + evidence collection |
+| Network Sniffer            | Network IDS                     |
+| -------------------------- | ------------------------------- |
+| Captures packets           | Captures packets                |
+| Displays traffic           | Analyzes traffic                |
+| Basic protocol information | Stateful traffic analysis       |
+| No attack detection        | Detects suspicious patterns     |
+| No security alerts         | Generates security alerts       |
+| Mainly observation         | Detection + evidence collection |
 
 ### Simple flow
 
@@ -217,16 +217,16 @@ CodeAlpha_NIDS/
 
 ### File Responsibilities
 
-| File | Purpose |
-|---|---|
-| `main.py` | Application entry point |
-| `capture.py` | Handles packet capture |
-| `analyzer.py` | Extracts and analyzes packet information |
-| `rules.py` | Implements intrusion detection rules |
-| `alert.py` | Generates alerts, logs, and dashboard output |
-| `config.py` | Stores configurable thresholds |
-| `simulate_attacks.py` | Generates controlled local test traffic |
-| `requirements.txt` | Python dependencies |
+| File                  | Purpose                                      |
+| --------------------- | -------------------------------------------- |
+| `main.py`             | Application entry point                      |
+| `capture.py`          | Handles packet capture                       |
+| `analyzer.py`         | Extracts and analyzes packet information     |
+| `rules.py`            | Implements intrusion detection rules         |
+| `alert.py`            | Generates alerts, logs, and dashboard output |
+| `config.py`           | Stores configurable thresholds               |
+| `simulate_attacks.py` | Generates controlled local test traffic      |
+| `requirements.txt`    | Python dependencies                          |
 
 ---
 
@@ -503,12 +503,12 @@ Generated PCAP files are intentionally excluded from Git using `.gitignore` beca
 
 The system uses severity levels to distinguish stronger indicators from lower-confidence anomalies.
 
-| Detection | Severity |
-|---|---|
-| Port Scan | 🔴 High |
-| SYN Flood | 🔴 High |
-| ICMP Flood | 🟠 Medium |
-| Rate Anomaly | 🟡 Low |
+| Detection    | Severity  |
+| ------------ | --------- |
+| Port Scan    | 🔴 High   |
+| SYN Flood    | 🔴 High   |
+| ICMP Flood   | 🟠 Medium |
+| Rate Anomaly | 🟡 Low    |
 
 Severity represents the detection rule's confidence/importance and does **not** mean that every alert is automatically a confirmed attack.
 
