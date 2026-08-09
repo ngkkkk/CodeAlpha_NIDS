@@ -287,25 +287,25 @@ The dashboard is implemented using the `Rich` library.
 
 ## NIDS Dashboard
 
-![NIDS Dashboard](screenshots/nids_dashboard.png)
+![NIDS Dashboard](Screenshots/nids_dashboard.png)
 
 ---
 
 ## Port Scan Detection
 
-![Port Scan Detection](screenshots/port_scan_detection.png)
+![Port Scan Detection](Screenshots/port_scan_detection.png)
 
 ---
 
 ## SYN Flood Detection
 
-![SYN Flood Detection](screenshots/syn_flood_detection.png)
+![SYN Flood Detection](Screenshots/syn_flood_detection.png)
 
 ---
 
 ## Alert Log
 
-![Alert Log](screenshots/alert_log.png)
+![Alert Log](Screenshots/alert_log.png)
 
 ---
 
