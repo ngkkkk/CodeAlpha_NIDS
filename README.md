@@ -327,10 +327,9 @@ The dashboard is implemented using the `Rich` library.
 
 # 📦 Installation
 
-## 1. Clone the repository
+## 1. Prepare the project directory
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY>
 cd CodeAlpha_NIDS
 ```
 
